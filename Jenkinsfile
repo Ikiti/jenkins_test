@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-				python testadd.py
+				sh 'python -m pytest'
             }
         }
 	}
