@@ -1,3 +1,4 @@
 from add import add
 
-assert add(2,10)==12
+def test_add2:
+  assert add(2,10)==12
